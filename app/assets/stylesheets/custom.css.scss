@@ -5,6 +5,11 @@ $navbar-default-bg: #eee;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+
+body{
+  font-family: "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
+}
+
 #logo{
   float: left;
   font-size :1.7em;
@@ -27,6 +32,7 @@ $navbar-default-bg: #eee;
   background-image: asset-url('rain.gif');
   background-size : cover;
   height: 700px;
+  margin: 0px;
 }
 
 .jumbotron h1{
@@ -35,6 +41,7 @@ $navbar-default-bg: #eee;
   margin-botton:30px;
   letter-spacing:-1px;
   font-weight: bold;
+
   }
 
 .btn-xlarge{
